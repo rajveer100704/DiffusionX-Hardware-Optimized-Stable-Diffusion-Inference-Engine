@@ -1,0 +1,16 @@
+model:
+  dev_name: "stabilityai/sd-turbo"
+  prod_name: "runwayml/stable-diffusion-v1-5"
+  device: "cpu"  # Will be auto-set to cuda if available in code
+
+inference:
+  steps_study: [20, 10]
+  schedulers: ["DDIM", "Euler"]
+  batch_prompts: ["a cat"]
+  batch_sizes: [1, 2]
+
+paths:
+  outputs: "outputs/"
+  images: "outputs/images/"
+  progression: "outputs/progression/"
+  benchmarks: "outputs/benchmarks/"

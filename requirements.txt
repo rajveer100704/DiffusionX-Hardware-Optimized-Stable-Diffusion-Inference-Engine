@@ -1,0 +1,8 @@
+torch>=2.0.0
+matplotlib
+diffusers
+transformers
+accelerate
+omegaconf
+pillow
+numpy
