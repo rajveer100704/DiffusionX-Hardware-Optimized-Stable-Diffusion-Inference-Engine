@@ -1,6 +1,6 @@
 # DiffusionX: Hardware-Accelerated Inference Engine
 
-*A hardware-aware diffusion inference engine with custom scheduler, CFG, and performance profiling.*
+*A hardware-aware diffusion inference engine with custom scheduler, CFG and performance profiling.*
 
 DiffusionX focuses on bridging ML theory and systems engineering by optimizing Stable Diffusion inference across hardware and workload configurations.
 
