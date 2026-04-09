@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Outputs
+outputs/benchmarks/*.json
+outputs/benchmarks/*.png
+outputs/progression/*.png
+outputs/images/output_*.png
+# Retain architecture.png and man_demo.png
+!outputs/images/architecture.png
+!outputs/images/man_demo.png
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
